@@ -1,0 +1,17 @@
+{
+  "name": "personal-site-backend",
+  "author": "@exactchange",
+  "description": "My personal website backend API",
+  "version": "0.0.1",
+  "scripts": {
+    "restart": "npm stop && npm start",
+    "start": "node start --skip-db",
+    "stop": "pkill mongod",
+    "test": "node test"
+  },
+  "dependencies": {
+    "fire-backend": "^1.0.6",
+    "fire-backend-test": "^1.0.2"
+  },
+  "devDependencies": {}
+}

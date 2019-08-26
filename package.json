@@ -2,11 +2,9 @@
   "name": "personal-site-backend",
   "author": "@exactchange",
   "description": "Backend API for my website.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
-    "restart": "npm stop && npm start",
     "start": "node start --skip-db",
-    "stop": "pkill mongod",
     "test": "node test"
   },
   "dependencies": {

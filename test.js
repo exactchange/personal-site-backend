@@ -17,7 +17,7 @@ const runTests = async () => {
 
     await it('retrieves articles',
       {
-        url: 'http://localhost:1337/fetchArticles'
+        url: 'http://localhost:1337/articles/tech'
       },
       {
         status: 200,

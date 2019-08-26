@@ -1,7 +1,7 @@
 {
   "name": "personal-site-backend",
   "author": "@exactchange",
-  "description": "My personal website backend API",
+  "description": "Backend API for my website.",
   "version": "0.0.1",
   "scripts": {
     "restart": "npm stop && npm start",

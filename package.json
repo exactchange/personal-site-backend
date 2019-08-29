@@ -8,7 +8,7 @@
     "test": "node test"
   },
   "dependencies": {
-    "fire-backend": "^1.0.7",
+    "fire-backend": "^1.1",
     "fire-backend-test": "^1.0.2"
   },
   "devDependencies": {}

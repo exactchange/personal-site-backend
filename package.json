@@ -8,8 +8,9 @@
     "test": "node test"
   },
   "dependencies": {
-    "fire-backend": "^1.1.4",
-    "fire-backend-test": "^1.0.2"
+    "fire-backend": "^1.1.5",
+    "fire-backend-test": "^1.0.2",
+    "fs": "0.0.1-security"
   },
   "devDependencies": {}
 }

@@ -1,7 +1,5 @@
 const { ƒ } = require('fire-backend');
 const { Ping } = require('../actions/Ping');
-const { Articles } = require('../actions/Articles');
-
 const { Home } = require('../actions/Home');
 const { Blog } = require('../actions/Blog');
 

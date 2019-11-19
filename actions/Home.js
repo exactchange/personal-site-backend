@@ -29,13 +29,12 @@ class Home extends ƒ.Action {
       route: '/home',
       article: {
         publishDate: 'Aug 24 2019 21:02 PDT',
-        title: 'Like React for Front-End? Try Fire For Backend',
+        title: 'New site, new blog',
         body: [
-          'Fire is a library for backend JavaScript that makes it painless to create application backends. Design simple Actions for each route in your application, and Fire will efficiently merge your updates with the global application state and save just the right data to the database, retaining a single-source of truth at the application level. Declarative APIs make your requests and responses more predictable, simpler to understand, and easier to debug.',
-          'Build encapsulated Actions that manage their own state, then compose them to make complex APIs. Because the application state can be derived from the state of all Actions, there is no need to create a database schema, or set up an initial database – Fire generates the database, and maintains the state of it as Actions are fired.',
-          'Fire doesn\'t make assumptions about your application\'s front-end, so you can develop new features in Fire with your existing front-end code. Fire can also be used along-side many other Fire Nodes in a service network, sharing state information while retaining a single source of truth.'
+          'Software engineer in Portland with a passion for full-stack JavaScript, game development, & product design.',
+          'Bookmark this site as a resource for keeping up with trends in design and programming, and the tech industry in general.'
         ],
-        url: 'https://github.com/exactchange/fire'
+        url: 'https://www.bennyschmidt.com'
       },
       feature: {
         publishDate: 'Nov 17 2019 20:00 PDT',

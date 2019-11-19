@@ -21,7 +21,6 @@ class Node extends ƒ.Node {
 
     this.setActions([
       new Ping('/'),
-      new Articles('/articles/:category'),
       new Home('/home'),
       new Blog('/blog')
     ]);

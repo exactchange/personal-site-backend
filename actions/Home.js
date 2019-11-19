@@ -16,7 +16,12 @@ class Home extends ƒ.Action {
         body: ƒ.Type.Array,
         url: ƒ.Type.String
       },
-      articles: ƒ.Type.Array,
+      feature: {
+        publishDate: ƒ.Type.String,
+        title: ƒ.Type.String,
+        body: ƒ.Type.Array,
+        url: ƒ.Type.String
+      },
       requestCount: ƒ.Type.Integer
     });
 
@@ -32,17 +37,15 @@ class Home extends ƒ.Action {
         ],
         url: 'https://github.com/exactchange/smoke'
       },
-      articles: [
-        {
-          publishDate: 'Nov 17 2019 20:00 PDT',
-          title: 'Excited to Announce Eidol',
-          body: [
-            'Eidol is a free-to-play online digital collectible card game with real-time PvP elements.',
-            'The game is currently in development, and the open beta release is planned for Q1 2020.'
-          ],
-          url: './img/eidol.jpg'
-        }
-      ],
+      feature: {
+        publishDate: 'Nov 17 2019 20:00 PDT',
+        title: 'Excited to Announce Eidol',
+        body: [
+          'Eidol is a free-to-play online digital collectible card game with real-time PvP elements.',
+          'The game is currently in development, and the open beta release is planned for Q1 2020.'
+        ],
+        url: './img/eidol.jpg'
+      },
       requestCount: 0
     });
 

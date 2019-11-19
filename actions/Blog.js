@@ -71,7 +71,7 @@ class Blog extends ƒ.Action {
           title: 'Working on This Battle Royale Game...',
           body: [
             'Blacklisted is a Battle Royale game I started building last year. I recently picked the project back up, and am planning an open beta for Q3 2019!',
-            'Don\'t want to wait for launch? You can join <a href='https://playblacklisted.com' target='_blank'>early access</a> and test alpha gameplay right now!',
+            'Don\'t want to wait for launch? You can join <a href="https://playblacklisted.com" target="_blank">early access</a> and test alpha gameplay right now!',
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/8_kq3_0YwIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
           ],
           url: 'https://www.youtube.com/watch?v=8_kq3_0YwIg'

@@ -21,7 +21,7 @@ class Blog extends ƒ.Action {
     });
 
     this.setState({
-      route: '/blog',
+      route: '/home',
       article: {
         publishDate: 'Aug 24 2019 21:02 PDT',
         title: 'Like React for Front-End? Try Fire For Backend',
@@ -34,12 +34,6 @@ class Blog extends ƒ.Action {
       },
       articles: [
         {
-          publishDate: 'Feb 24 2019 23:32 PDT',
-          title: 'A Mobile Todo-List App In React Native, Using Redux-Saga',
-          body: [],
-          url: 'https://github.com/exactchange/redux-saga-todo'
-        },
-        {
           publishDate: 'Feb 25 2019 17:25 PDT',
           title: 'A Todo-List App Built With React & MobX, With Decorator Support!',
           body: [
@@ -49,19 +43,13 @@ class Blog extends ƒ.Action {
           url: 'https://github.com/exactchange/react-mobx-todo'
         },
         {
-          publishDate: 'May 19 2019 08:24 PDT',
-          title: 'I Re-Wrote the Commonly Used Three.js WebGL Detector in ES6',
-          body: [],
-          url: 'https://github.com/exactchange/webgl-detector-es6'
-        },
-        {
           publishDate: 'May 20 2019 15:21 PDT',
           title: 'From React Native to the App Store',
           body: [
             'Daily Tarot for iPhone',
             'Daily Tarot: One Card Draw is a simple app I designed and built over the weekend in React Native as a personal exploration in releasing and distributing iOS apps with Expo. In short, Expo provides a great developer experience that makes launching apps really easy.',
             'This project can serve as a reference for developers who are working with Expo & React Native for the first time, or even as a foundation for someone who might be creating their own card game for iPhone. You are free to use and build upon this code however you want 👍',
-            '<h4><strong>Built with React Native</strong></h4><img src="https://raw.githubusercontent.com/exactchange/daily-tarot/master/screenshot1.png" alt="Daily Tarot by Benny Schmidt" />'
+            '<img src="https://raw.githubusercontent.com/exactchange/daily-tarot/master/screenshot1.png" alt="Daily Tarot by Benny Schmidt" />'
           ],
           url: 'https://github.com/exactchange/daily-tarot'
         },
@@ -84,18 +72,6 @@ class Blog extends ƒ.Action {
             'Fire doesn\'t make assumptions about your application\'s front-end, so you can develop new features in Fire with your existing front-end code. Fire can also be used along-side many other Fire Nodes in a service network, sharing state information while retaining a single source of truth.'
           ],
           url: 'https://github.com/exactchange/fire'
-        },
-        {
-          publishDate: 'Aug 25 2019 21:02 PDT',
-          title: 'smoke.it().then(chill => {})',
-          body: [],
-          url: 'https://github.com/exactchange/smoke'
-        },
-        {
-          publishDate: 'Nov 7 2019 18:58 PDT',
-          title: 'Implement a linked list data structure in JavaScript',
-          body: [],
-          url: 'https://github.com/exactchange/linked-list-js'
         }
       ],
       requestCount: 0

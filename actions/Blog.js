@@ -59,6 +59,16 @@ class Blog extends ƒ.Action {
             'Fire is a library for backend JavaScript that makes it painless to create application backends. Design simple Actions for each route in your application, and Fire will efficiently merge your updates with the global application state and save just the right data to the database, retaining a single-source of truth at the application level. Declarative APIs make your requests and responses more predictable, simpler to understand, and easier to debug.'
           ],
           url: 'https://github.com/exactchange/fire'
+        },
+        {
+          publishDate: 'Jan 9 2020 08:55 PDT',
+          title: 'A new MMO?',
+          body: [
+            'A lot of skateboard games coming out this year, but few if any are fully online. Imagine a Tony Hawk\'s Pro Skater in a persistent online world &ndash; that\'s the vision!',
+            'Some of the functionality from my last project is being migrated over and perfected in this game (authentication, physics engine, real-time persistence, player queues, chat, etc.). Excited to share gameplay content soon!',
+            '<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Rls5Hy90J1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+          ],
+          url: 'https://www.youtube.com/watch?v=Rls5Hy90J1Y'
         }
       ],
       requestCount: 0

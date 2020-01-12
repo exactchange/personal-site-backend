@@ -23,14 +23,14 @@ class Blog extends ƒ.Action {
     this.setState({
       route: '/home',
       article: {
-        publishDate: 'Jan 9 2020 08:55 PDT',
-          title: 'A new MMO?',
-          body: [
-            'A lot of skateboard games coming out this year, but few if any are fully online. Imagine a Tony Hawk\'s Pro Skater in a persistent online world &ndash; that\'s the vision!',
-            'Some of the functionality from my last project is being migrated over and perfected in this game (authentication, physics engine, real-time persistence, player queues, chat, etc.). Excited to share gameplay content soon!',
-            '<iframe width="560" height="315" src="https://www.youtube.com/embed/Rls5Hy90J1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-          ],
-          url: 'https://www.youtube.com/watch?v=Rls5Hy90J1Y'
+        publishDate: 'Jan 11 2020 19:47 PDT',
+        title: 'Street - A Skateboarding MMORPG',
+        body: [
+          'I built this prototype - "Street" - over the last few days to explore the idea further.',
+          'The concept is to have a more realistic and challenging skate game, where the player has to master each trick, all while playing online with others around the world.',
+          '<iframe width="560" height="315" src="https://www.youtube.com/embed/nU02omhKUt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        ],
+        url: 'https://www.youtube.com/watch?v=nU02omhKUt8'
       },
       articles: [
         {
@@ -71,6 +71,16 @@ class Blog extends ƒ.Action {
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/Rls5Hy90J1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
           ],
           url: 'https://www.youtube.com/watch?v=Rls5Hy90J1Y'
+        },
+        {
+          publishDate: 'Jan 11 2020 19:47 PDT',
+          title: 'Street - A Skateboarding MMORPG',
+          body: [
+            'I built this prototype - "Street" - over the last few days to explore the idea further.',
+            'The concept is to have a more realistic and challenging skate game, where the player has to master each trick, all while playing online with others around the world.',
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/nU02omhKUt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+          ],
+          url: 'https://www.youtube.com/watch?v=nU02omhKUt8'
         }
       ],
       requestCount: 0

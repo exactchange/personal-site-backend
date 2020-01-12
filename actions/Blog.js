@@ -26,7 +26,7 @@ class Blog extends ƒ.Action {
         publishDate: 'Jan 11 2020 19:47 PDT',
         title: 'Street - A Skateboarding MMORPG',
         body: [
-          'I built this prototype - "Street" - over the last few days to explore the idea further.',
+          'I built this prototype - "Street" - over the last few days to explore this skateboard MMO idea further.',
           'The concept is to have a more realistic and challenging skate game, where the player has to master each trick, all while playing online with others around the world.',
           '<iframe width="560" height="315" src="https://www.youtube.com/embed/nU02omhKUt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         ],

@@ -21,7 +21,7 @@ class Blog extends ƒ.Action {
     });
 
     this.setState({
-      route: '/home',
+      route: '/blog',
       article: {
         publishDate: 'Jan 11 2020 19:47 PDT',
         title: 'Street - A Skateboarding MMORPG',

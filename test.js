@@ -17,12 +17,14 @@ const runTests = async () => {
 
     await it('retrieves articles',
       {
-        url: 'http://localhost:1337/articles/tech'
+        url: 'http://localhost:1337/blog'
       },
       {
+        route: '/blog',
         status: 200,
 
         _omit: [
+          'article',
           'articles',
           'requestCount'
         ]

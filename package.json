@@ -1,14 +1,14 @@
 {
   "name": "personal-site-backend",
   "author": "@exactchange",
-  "description": "Backend API for my blog",
-  "version": "0.0.3",
+  "description": "Personal site backend",
+  "version": "0.0.4",
   "scripts": {
     "start": "node start --skip-db",
     "test": "node test"
   },
   "dependencies": {
-    "fire-backend": "^1.2.7",
+    "fire-backend": "^1.3.1",
     "fire-backend-test": "^1.0.2",
     "fs": "0.0.1-security"
   },

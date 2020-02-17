@@ -1,7 +1,7 @@
 const { ƒ } = require('fire-backend');
 const { Ping } = require('../actions/Ping');
-const { Blog } = require('../actions/Blog');
-const { Projects } = require('../actions/Projects');
+const { Article } = require('../actions/Article');
+const { Project } = require('../actions/Project');
 
 /*
  * Node
@@ -21,8 +21,8 @@ class Node extends ƒ.Node {
 
     this.setActions([
       new Ping('/'),
-      new Blog('/blog'),
-      new Projects('/projects')
+      new Article('/article/:key'),
+      new Project('/project/:key')
     ]);
   }
 }

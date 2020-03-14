@@ -9,14 +9,14 @@ class Project extends ƒ.Action {
     super(path);
 
     this.setShape({
-      headline: ƒ.Type.String,
+      name: ƒ.Type.String,
       downloads: ƒ.Type.String,
       description: ƒ.Type.String,
       link: ƒ.Type.String
     });
 
     this.setState({
-      headline: {
+      name: {
         '1581958382756': 'Fire',
         '1581958405821': 'Flare',
         '1581958421341': 'SmartInput'

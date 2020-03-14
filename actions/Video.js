@@ -10,7 +10,7 @@ class Video extends ƒ.Action {
 
     this.setShape({
       imgSrc: ƒ.Type.String,
-      link: ƒ.Type.String,
+      href: ƒ.Type.String,
       title: ƒ.Type.String
     });
 

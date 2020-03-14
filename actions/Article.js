@@ -10,7 +10,7 @@ class Article extends ƒ.Action {
 
     this.setShape({
       publishDate: ƒ.Type.String,
-      title: ƒ.Type.String,
+      headline: ƒ.Type.String,
       body: ƒ.Type.Array,
       url: ƒ.Type.String
     });
@@ -21,7 +21,7 @@ class Article extends ƒ.Action {
         '1581958405821': 'Aug 24 2019 21:02',
         '1581958421341': 'Feb 10 2020 17:00'
       },
-      title: {
+      headline: {
         '1581958382756': 'From React Native to the App Store',
         '1581958405821': 'Like React for Front-End? Try Fire For Backend',
         '1581958421341': 'An easy-to-theme React input with built-in analytics'
